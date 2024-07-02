@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="description" content="Landing page with navigation, personal photo, CV download, and contact form">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="section">
+        <div class="container">
+            <img src="aaa.png" alt="Your Photo" class="photo">
+
+            <main>
+                <section class="firstsection">
+                    <div class="leftsection">
+                        Hi! My name is <span class="purple">Alveena</span>
+                        <div>and I am a Passionate</div>
+                        <span id="element"></span>
+                    </div>
+        
+                </section>
+            </main>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/alveena-aslam-74859a278/" aria-label="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" aria-label="Email"><i class="fa fa-envelope"></i></a>
+            </div>
+            <a href="Resume.pdf" class="cv-button" download>Download CV</a>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2>About</h2>
+        
+        <p> <img src="aaa.png" class="photoo" alt="img" width="42" height="42" style="float:left"> A dedicated Computer Science student at The Begum Nusrat Bhutto Women University Sukkur, currently in my third year with a CGPA of 3.74. My academic journey includes achieving top grades in both intermediate and matriculation from Hira Public Higher School and College Sukkur. I have developed strong skills in web development and programming, with hands-on experience in Java, C, HTML, CSS, JavaScript, PHP, Laravel, and Yii. Notably, I have completed significant projects like a Quiz Management System and a Notice Board System.
+        Additionally, I have an interest in web development and baking. I possess a robust set of skills suitable for remote and flexible projects, particularly in web development and programming. With proficiency in languages such as Java and C, along with extensive experience in web development frameworks like Laravel and Yii, I am well-equipped to handle a variety of tasks remotely. My familiarity with essential tools such as MS Office and GitHub further complements my ability to manage and execute projects efficiently in a virtual environment.
+        Additionally, my academic background and involvement in significant projects like the Quiz Management System and Notice Board System demonstrate my capability to deliver high-quality work independently. My recent certification in Web Engineering underlines my commitment to staying updated with industry trends and best practices. Although I, my academic and professional experiences have provided me with the necessary skills and discipline to excel in remote project settings. I am confident that my technical abilities, coupled with my proactive approach to learning and problem-solving, make me a strong candidate for any remote or flexible role.</p>
+    </section>
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-box">
+            <a target="_blank" href="web.png">
+              <img src="web.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          <div class="skills-box">
+            <a target="_blank" href="j.png">
+              <img src="j.png" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          <div class="skills-box">
+            <a target="_blank" href="c.png">
+              <img src="c.png" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          
+         
+        </div>
+</section>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <section id="section1"><p>Currently doing my Bachlore's from The Begum Nusrat Bhutto Women University.</p></section>
+        
+        <section id="section2">   <p class="education-box">Done my Intermediate from Hira Public Higher Secondary School and College.</p></section>
+
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        
+        <div class="form-container">
+            <h1>Fill Form to Contact</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" aria-label="Name">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" aria-label="Subject">
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-label="Email">
+                <label for="message">Enter Your Message</label>
+                <textarea id="message" aria-label="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+    </section>
+    <div class="footer">
+        <p>Copyright &copy; 2024; Designed by <span class="designer">Alveena Aslam</span></p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
